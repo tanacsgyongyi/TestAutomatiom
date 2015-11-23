@@ -23,7 +23,9 @@ public class HomePage extends BasePage {
 	 * @return {@link SearchPage}
 	 */
 	public SearchPage clickOnAdvancedSearchLink() {
-		getDriver().findElement(searchLink).click();
+		getDriver().findElement(searchLink).click();		
 		return new SearchPage(getDriver());
 	}
+	
+	
 }
